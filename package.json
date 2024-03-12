@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "target": {
+    "main":false
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"parcel",
+    "build":"parcel build index.html"
   },
   "keywords": [],
   "author": "",
